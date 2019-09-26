@@ -1,0 +1,52 @@
+body,html {
+  background-color: #222831;
+}
+table{
+  table-layout: fixed;
+}
+.titleGame {
+  background-color: #00d1b2;
+}
+.titleGame p {
+  font-size: 30px;
+  color: white;
+  font-family: righteous;
+}
+.table-container{
+max-height: 430px;
+}
+.scoreBox p {
+  color: #f9ed69;
+  font-size: 25px;
+}
+.scoreLabel {
+  color: #ff2e63;
+  font-size: 30px;
+  padding-bottom: 20px;
+}
+.boxOptions .box {
+  height: 150px;
+  width: 150px;
+  border-radius: 50%;
+  background-color: transparent;
+  border: 4px solid #eeeeee;
+  box-shadow: 0 0 2px #888;
+}
+
+.boxOptions .box:hover {
+  cursor: pointer;
+  background-color: rgb(77, 74, 74);
+}
+
+.labelName {
+  font-size: 25px;
+  color: #eaeaea;
+  font-family: roboto;
+}
+.box {
+  color: #f67280;
+}
+.table-info{
+  padding: 50px;
+}
+
