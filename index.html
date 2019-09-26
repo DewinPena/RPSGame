@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Play ROCK PAPER $ SCISSORS</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.5/css/bulma.min.css">
+    <link rel="stylesheet" href="main.css" />
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Righteous|Roboto&display=swap"rel="stylesheet"/>
+    <script defer src="https://use.fontawesome.com/releases/v5.3.1/js/all.js"></script>
+  </head>
+  <body>
+    <div class="column has-text-centered titleGame">
+      <p>Rock, Paper & Scissors</p>
+    </div>
+
+    <section>
+
+      <div class="container" style="margin-top: 80px">
+        <div class="columns is-centered is-mobile">
+          <div class="columns is-mobile ">
+            <div class="column is-narrow has-text-centered">
+              <p class="is-pulled-right labelName">User Score</p>
+            </div>
+
+            <div class="column is-narrow is-mobile has-text-centered">
+              <div class="level is-mobile scoreBox">
+                <p id="userScore" class="level-item">0</p>
+
+                <p class="level-item">|</p>
+
+                <p id="compScore" class="level-item">0</p>
+              </div>
+            </div>
+            <div class="column has-text-centered">
+              <p class="is-pulled-left labelName">Comp Score</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="columns is-centered">
+          <div class="level boxOptions has-text-centered " style="margin-top:10px">
+            <div class="column ">
+              <div class="box" id="r">
+                <i class="fas fa-hand-rock fa-6x"></i>
+              </div>
+            </div>
+
+            <div class="column">
+              <div class="box" id="p">
+                <i class="fas fa-hand-paper fa-6x"></i>
+              </div>
+            </div>
+            <div class="column">
+              <div class="box" id="s">
+                <i class="fas fa-hand-scissors fa-6x"></i>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="columns is-centered table-info">
+            <table class="table is-striped is-bordered is-narrow is-fullwidth">
+              <thead>
+                <tr class="is-selected">
+                  <th>USER</th>
+                  <th>COMPUTER</th>
+                  <th>RESULT</th>
+                </tr>
+              </thead>
+              <tbody>
+                
+              </tbody>
+            </table>
+          </div>
+      </div>
+    </section>
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+    <script src="script.js"></script>
+  </body>
+</html>
